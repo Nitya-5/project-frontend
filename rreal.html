@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <style>
+ 
+        /* Styling the body */
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        section {
+            width: 100%;
+            height: 100vh;
+
+        }
+        /* Styling the three events section */
+        section .events {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            box-sizing: border-box; 
+            overflow-x: hidden;      
+            overflow-y: auto;
+            }
+          
+        /* Styling the links of
+        the events section */
+        section .events ul {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-20%);
+            margin: 0;
+            padding: 40px;
+            box-sizing: border-box;
+        }
+          
+        /* Styling the lists of the event section */
+        section .events ul li {
+            list-style: none;
+            background: #fff;
+            box-sizing: border-box;
+            height: 200px;
+            margin: 15px 0;
+        }
+          
+        /* Styling the time class of events section */
+        section .events ul li .time {
+            position: relative;
+            padding: 20px;
+            background: #262626;
+            box-sizing: border-box;
+            width: 30%;
+            height: 100%;
+            float: left;
+            text-align: center;
+            transition: .5s;
+        }
+          
+        /* Styling the hover effect
+            of events section */
+        section .events ul li:hover .time {
+            background: #e91e63;
+        }
+          
+        /* Styling the header of time
+            class of events section */
+        section .events ul li .time h2 {
+            position: absolute;
+            margin: 0;
+            padding: 0;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            font-size: 60px;
+            line-height: 30px;
+        }
+          
+        /* Styling the texts of time
+        class of events section */
+        section .events ul li .time h2 span {
+            font-size: 30px;
+        }
+          
+        /* Styling the details
+        class of events section */
+        section .events ul li .details {
+            padding: 20px;
+            background: #fff;
+            box-sizing: border-box;
+            width: 70%;
+            height: 100%;
+            float: left;
+        }
+          
+        /* Styling the header of the
+        details class of events section */
+        section .events ul li .details h3 {
+            position: relative;
+            margin: 0;
+            padding: 0;
+            font-size: 22px;
+        }
+          
+        /* Styling the lists of details
+        class of events section */
+        section .events ul li .details p {
+            position: relative;
+            margin: 10px 0 0;
+            padding: 0;
+            font-size: 15px;
+        }
+          
+        /* Styling the links of details
+        class of events section */
+        section .events ul li .details a {
+            display: inline-block;
+            text-decoration: none;
+            padding: 5px 10px;
+            border: 1.5px solid #262626;
+            margin-top: 8px;
+            font-size: 18px;
+            transition: .5s;
+        }
+          
+        /* Styling the details class's hover effect */
+        section .events ul li .details a:hover {
+            background: #e91e63;
+            color: #fff;
+            border-color: #e91e63;
+        }
+
+        section .events ul li .details .contact{
+            float: right;
+            font-size: 14px;
+        }
+    </style>
+</head>
+  
+<body>
+    <section>
+        <div class="events">
+            <ul>
+                <li>
+                    <div class="time">
+                        <h2>
+                            12 <br><span>March</span>
+                        </h2>
+                    </div>
+                    <div class="details">
+                        <h3>
+                            Music Festival
+                        </h3>
+                         
+                        <p>
+                            A weekend to indulge in warm music with amazing artists and lip-smacking food
+                        </p>
+                        <p>
+                            On-premise : Mumbai<br>Max seats  : 250<br>Status : Live
+                        </p>
+                        <p class="contact">Contact:<br>musicfest@gmail.com<br>022-251678<br></p>
+ 
+  
+                        <a href="#">Register</a>
+                    </div>
+                    <div style="clear: both;"></div>
+                </li>
+  
+                <li>
+                    <div class="time">
+                        <h2>
+                            17 <br><span>April</span>
+                        </h2>
+                    </div>
+                    <div class="details">
+                        <h3>
+                            Business Conference
+                        </h3>
+                         
+                        <p>
+                           This conference is held to discuss new trends and opportunities pertaining to the business
+                        </p>
+                        <p>virtual  : zoom<br>
+                           Max seats: 80<br>Status : Scheduled
+                       </p>
+                       <p class="contact">Contact:<br>nyc.co@gmail.com<br>044-781209<br></p>
+ 
+                        <a href="#">Register</a>
+                    </div>
+                    <div style="clear:both;"></div>
+                </li>
+  
+                <li>
+                    <div class="time">
+                        <h2>
+                            2 <br><span>february</span>
+                        </h2>
+                    </div>
+                    <div class="details">
+                        <h3>
+                            Hip Hop beginner class
+                        </h3>
+                         
+                        <p>
+                           What you'll learn - Confidently step into a beginners Hip Hop class and understand the movements 
+                        </p>
+                        <p>
+                            on-premise: Delhi<br>
+                            Max seats : 100<br>Status : Completed
+                        </p>
+                        <p class="contact">Contact:<br>danceguru@gmail.com<br>011-457631<br></p>
+ 
+  
+                        <a href="#">Register</a>
+                    </div>
+                    <div style="clear:both;"></div>
+                </li>
+                <li>
+                    <div class="time">
+                        <h2>
+                            20 <br><span>March</span>
+                        </h2>
+                    </div>
+                    <div class="details">
+                        <h3>
+                            Art & Craft  Workshop
+                        </h3>
+                         
+                        <p>
+                           Learn the layering technique in poster colours. It is a 3-layer painting which has a combination of brush painting and blending method
+                        </p>
+                        <p>
+                            Virtual : Zoom<br>Max seats  : 50<br>Status : Scheduled
+                        </p>
+                        <p class="contact">Contact:<br>craftsshop@gmail.com<br>033-892561<br></p>
+ 
+  
+                        <a href="#">Register</a>
+                    </div>
+                    <div style="clear: both;"></div>
+                </li>
+                 <li>
+                    <div class="time">
+                        <h2>
+                            19 <br><span>May</span>
+                        </h2>
+                    </div>
+                    <div class="details">
+                        <h3>
+                            Book Reading Festival
+                        </h3>
+                         
+                        <p>
+                            A reading festival is a gathering that focuses on celebrating all aspects of books and reading
+                        </p>
+                        <p>
+                            On-premise : Jaipur<br>Max seats  : 500<br>Status : Live
+                        </p>
+                        <p class="contact">Contact:<br>readingfest@gmail.com<br>141-378954<br></p>
+ 
+  
+                        <a href="#">Register</a>
+                    </div>
+                    <div style="clear: both;"></div>
+                </li>
+                <li>
+                    <div class="time">
+                        <h2>
+                            15<br><span>April</span>
+                        </h2>
+                    </div>
+                    <div class="details">
+                        <h3>
+                            State Chess Championship
+                        </h3>
+                         
+                        <p>
+                            We have designed State Chess Championship to celebrate and cherish Indian love and passion for the game
+                        </p>
+                        <p>
+                            On-premise : Delhi<br>Max seats  : 40<br>Status : Scheduled
+                        </p>
+                        <p class="contact">Contact:<br>chesschamp@gmail.com<br>011-190258<br></p>
+ 
+  
+                        <a href="#">Register</a>
+                    </div>
+                    <div style="clear: both;"></div>
+                </li>
+                <li>
+                    <div class="time">
+                        <h2>
+                            25<br><span>March</span>
+                        </h2>
+                    </div>
+                    <div class="details">
+                        <h3>
+                            Open mic
+                        </h3>
+                         
+                        <p>
+                            The Laugh Store is giving an opportunity to newe and emerging comedians to try out new material at our open mic
+                        </p>
+                        <p>
+                            On-premise : mumbai<br>Max seats  : 50<br>Status : Live
+                        </p>
+                        <p class="contact">Contact:<br>laughstore@gmail.com<br>022-674381<br></p>
+ 
+  
+                        <a href="#">Register</a>
+                    </div>
+                    <div style="clear: both;"></div>
+                </li>
+                <li>
+                    <div class="time">
+                        <h2>
+                            17<br><span>Feb</span>
+                        </h2>
+                    </div>
+                    <div class="details">
+                        <h3>
+                            Sudoku Championship
+                        </h3>
+                         
+                        <p>
+                            The championship follows the same rule as Sudoku, and  will have 2 rounds Round 1 "Qualifier" and Round 2 "Finals".
+                        </p>
+                        <p>
+                            Virtual : Watsapp<br>Max seats  : 50<br>Status : Cancelled
+                        </p>
+                        <p class="contact">Contact:<br>sudoku_2023@gmail.com<br>020-892347<br></p>
+ 
+  
+                        <a href="#">Register</a>
+                    </div>
+                    <div style="clear: both;"></div>
+                </li>
+            </ul>
+        </div>
+    </section>
+</body>
+  
+</html>
